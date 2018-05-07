@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CodingTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="posted">User has been added!</string>
+    <string name="no_post">User was not added</string>
+    <string name="empty">Fill out empty fields</string>
+    <string name="fname">Enter first name</string>
+    <string name="lname">Enter last name</string>
+    <string name="job">What\'s your job?</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.disen.codingtest.AddUsersFragment">
+
+    <EditText
+        android:layout_width="180dp"
+        android:id="@+id/first_name"
+        android:layout_gravity="center"
+        android:hint="@string/fname"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/last_name"
+        android:hint="@string/lname"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/job"
+        android:hint="@string/job"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_done_white_24dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/add"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</layout>
